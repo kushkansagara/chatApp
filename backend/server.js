@@ -20,7 +20,7 @@ const PORT = 5001;
 const io = require("socket.io")(server, {
   cors: {
     origin: "*",
-    //methods: ["GET", "POST"],
+    methods: ["GET", "POST"],
   },
 });
 
